@@ -1,0 +1,79 @@
+
+        body{
+            margin: 0%;
+        }
+        .main1{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            position: relative;
+        }
+        .sub11{
+            width: 100vw;
+            height: 75vh;
+            background-color: blueviolet;
+            position: absolute;
+            top: 0vh;
+            left: 0vw;
+        
+        }
+        .sub11 img{
+            width: 100%;
+            height: 100%;
+        }
+        .sub12{
+            width: 100vw;
+            height: 25vh;
+            background-color: brown;
+            position: absolute;
+            top: 75vh;
+            left: 0vw;
+            overflow: hidden;
+            transition: all 2s ease-in-out;
+        
+        }
+        .sub12 img{
+            width: 100vw;
+            height: 75vh;
+        }
+        .main1:hover .sub12{
+            height: 75vh;
+            top:25vh;
+        }
+        .sub13 {
+            position: absolute;
+            top: 3vh;
+            right: 2vh;
+            color: white;
+            font-size: x-large;
+        }
+        .sub13 td{
+            padding-right: 50px;
+        }
+        .sub14{
+            width: 100vw;
+            height: 30vh;
+            position: absolute;
+            bottom: 45vh;
+            left:-10vw;
+            font-size: 200px;
+            text-align: center;
+            color: whitesmoke;
+            transition: all 2s ease-in-out;
+            
+            
+        }
+        .main1:hover .sub14{
+            left: 0vw;
+            bottom: 15vh;
+            
+        }
+        .sub15{
+            position: absolute;
+            top:2vh;
+            left:1vh;
+            
+        }
+        .sub15 img{
+            width: 150px;
+        }
