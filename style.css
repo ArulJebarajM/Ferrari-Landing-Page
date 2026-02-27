@@ -77,3 +77,88 @@
         .sub15 img{
             width: 150px;
         }
+        .main2{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            
+
+        }
+        .main2 video{
+             width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+
+        }
+        .main3{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            position: relative;
+        }
+        .Box3{
+            width: 50vw;
+            height: 50vh;
+            overflow: hidden;
+        }
+        .Box3 img{
+            width:50vw ;
+            height:50vh ;
+            object-fit: cover;
+            transition: all 1s ease-in-out;
+        }
+        .Box3 img:hover{
+            transform: scale3d(1.3,1.3,1.5);
+        }
+        .sub31{
+            background-color: blueviolet;
+            top:0vh;
+            left:0vw;
+            position: absolute;
+
+        }
+        .sub32{
+            background-color: brown;
+            top:0vh;
+            left:50vw;
+            position: absolute;
+
+        }
+        .sub33{
+            background-color: rgb(43, 226, 125);
+            top:50vh;
+            left:0vw;
+            position: absolute;
+
+        }
+        .sub34{
+            background-color: rgb(173, 111, 19);
+            top:50vh;
+            left:50vw;
+            position: absolute;
+
+        }
+        .main4{
+            width: 100vw;
+            height: 50vh;
+            background-color: black;
+            color: rgb(123, 118, 177);
+            text-align: center;
+            font-size: larger;
+            font-style: oblique;
+            font-weight: bold;
+        }
+        .main4 button{
+            width: 15vw;
+            height: 5vh;
+            background-color: rgb(159, 9, 9);
+            color:rgb(192, 191, 195);
+            font-size: x-large;
+            border:2px solid whitesmoke;
+            border-radius: 8px;
+             
+        }
+        
+
+
+
